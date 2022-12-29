@@ -1,5 +1,5 @@
 # react-native-ali-push
-[![npm](https://img.shields.io/npm/v/react-native-aliyun-push.svg?style=flat-square)](https://www.npmjs.com/package/react-native-aliyun-push)
+[![npm](https://img.shields.io/npm/v/react-native-aliyun-push.svg?style=flat-square)](https://www.npmjs.com/package/@jvssoft/react-native-ali-push)
 [阿里云移动推送官方文档](https://help.aliyun.com/document_detail/434552.html)) 
 react-native封装组件（本仓库基于原来 react-native-aliyun-push 升级sdk到 3.8.0）ios 部分不建议使用
 <details>
