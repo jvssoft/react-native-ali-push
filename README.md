@@ -54,13 +54,13 @@ v1.0.15
 
 ReactNative 0.59.x及以前
 ```
-npm install react-native-aliyun-push --save
-react-native link react-native-aliyun-push
+npm install @jvssoft/react-native-ali-push --save
+react-native link @jvssoft/react-native-ali-push
 ```
 
 ReactNative 0.60.x及以后
 ```
-yarn add react-native-aliyun-push
+yarn add @jvssoft/react-native-ali-push
 ```
 
 <details>
