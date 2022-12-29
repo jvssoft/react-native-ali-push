@@ -1,11 +1,12 @@
-# react-native-aliyun-push
+# react-native-ali-push
 [![npm](https://img.shields.io/npm/v/react-native-aliyun-push.svg?style=flat-square)](https://www.npmjs.com/package/react-native-aliyun-push)
-
-[阿里云移动推送](https://www.aliyun.com/product/cps?spm=5176.2020520107.0.0.fgXGFp)react-native封装组件
-
-
+[阿里云移动推送官方文档](https://help.aliyun.com/document_detail/434552.html)) 
+react-native封装组件（本仓库基于原来 react-native-aliyun-push 升级sdk到 3.8.0）ios 部分不建议使用
 <details>
   <summary>修改履历</summary> 
+v1.0.23
+1.升级阿里sdk到 3.8.0
+	
 v1.0.22
 
 1. 修正alicloud-android-utdid Android编译错误
