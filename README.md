@@ -1,8 +1,6 @@
 # react-native-ali-push
-[![npm](https://img.shields.io/npm/v/react-native-aliyun-push.svg?style=flat-square)]
-(https://www.npmjs.com/package/@jvssoft/react-native-ali-push)
-[阿里云移动推送官方文档]
-(https://help.aliyun.com/document_detail/434552.html)) 
+[![npm](https://camo.githubusercontent.com/0a0419b55499991041394cc5dd428e219584ead2159a324ab4534af9951e922e/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f72656163742d6e61746976652d616c6979756e2d707573682e7376673f7374796c653d666c61742d737175617265)](https://www.npmjs.com/package/@jvssoft/react-native-ali-push)
+[阿里云移动推送官方文档](https://help.aliyun.com/document_detail/434552.html)
 react-native封装组件（本仓库基于原来 react-native-aliyun-push 升级sdk到 3.8.0）ios 部分不建议使用
 <details>
   <summary>修改履历</summary> 
