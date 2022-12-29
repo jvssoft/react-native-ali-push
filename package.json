@@ -1,0 +1,33 @@
+{
+    "name": "react-native-ali-push",
+    "version": "1.0.0",
+    "description": "A react native wrapper for aliyun push SDK",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jvssoft/react-native-ali-push.git"
+    },
+    "keywords": [
+        "react-component",
+        "react-native",
+        "android",
+        "ios",
+        "aliyun",
+        "ali",
+        "push",
+        "aliyun-push",
+        "ali-push"
+    ],
+    "author": {
+        "name": "Air",
+        "url": "https://github.com/jvssoft"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jvssoft/react-native-ali-push/issues"
+    },
+    "dependencies": {
+    },
+    "peerDependencies": {
+    }
+}

@@ -1,0 +1,62 @@
+apply plugin: 'com.android.library'
+
+description = 'react-native-aliyun-push'
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.3.1'
+        classpath 'com.google.gms:google-services:3.0.0'
+    }
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion '30.0.3'
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 30
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+    jcenter()
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.facebook.react:react-native:+'
+    implementation 'com.aliyun.ams:alicloud-android-push:3.8.0'
+    implementation 'com.aliyun.ams:alicloud-android-third-push:3.8.0';
+    // 阿里云推送依赖
+    implementation 'com.aliyun.ams:alicloud-android-utdid:1.1.5.3'
+    implementation 'com.aliyun.ams:alicloud-android-ut:5.0.0'
+//    implementation 'com.aliyun.ams:alicloud-android-push:3.8.0'
+//
+//     api 'com.aliyun.ams:alicloud-android-utils:1.1.3'
+//     api 'com.aliyun.ams:alicloud-android-beacon:1.0.7'
+//     api 'com.aliyun.ams:alicloud-android-utdid:1.5.2'
+//     api 'com.aliyun.ams:alicloud-android-ut:5.4.0'
+//
+//    // huawei
+////     api 'com.google.firebase:firebase-messaging:23.0.7'
+//     api 'com.aliyun.ams:huawei-push:2.6.3.305'
+//     api 'com.aliyun.ams:huawei-push-base:2.6.3.305'
+//
+//    // // meizu
+//     api 'com.aliyun.ams:meizu-push:3.8.7.1'
+//
+//    // // vivo
+//     api 'com.aliyun.ams:third_vivopush:2.9.0.1'
+
+//    // shortcutBadger
+    api 'me.leolin:ShortcutBadger:1.1.22@aar'
+
+}

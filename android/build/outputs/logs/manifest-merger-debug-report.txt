@@ -1,0 +1,63 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml:1:1-23:12
+INJECTED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml:1:1-23:12
+INJECTED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml:1:1-23:12
+	package
+		ADDED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml:2:11-43
+		INJECTED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml:3:5-68
+	android:name
+		ADDED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml:3:22-65
+application
+ADDED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml:4:5-22:19
+	android:label
+		ADDED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml:5:13-45
+receiver#org.wonday.aliyun.push.AliyunPushMessageReceiver
+ADDED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml:6:9-18:20
+	android:exported
+		ADDED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml:8:17-41
+	android:name
+		ADDED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml:7:17-80
+intent-filter#action:name:com.alibaba.push2.action.NOTIFICATION_OPENED
+ADDED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml:9:13-11:29
+action#com.alibaba.push2.action.NOTIFICATION_OPENED
+ADDED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml:10:17-87
+	android:name
+		ADDED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml:10:25-84
+intent-filter#action:name:com.alibaba.push2.action.NOTIFICATION_REMOVED
+ADDED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml:12:13-14:29
+action#com.alibaba.push2.action.NOTIFICATION_REMOVED
+ADDED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml:13:17-88
+	android:name
+		ADDED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml:13:25-85
+intent-filter#action:name:com.alibaba.sdk.android.push.RECEIVE
+ADDED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml:15:13-17:29
+action#com.alibaba.sdk.android.push.RECEIVE
+ADDED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml:16:17-79
+	android:name
+		ADDED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml:16:25-76
+activity#org.wonday.aliyun.push.ThirdPartMessageActivity
+ADDED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml:19:9-21:44
+	android:exported
+		ADDED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml:21:17-41
+	android:name
+		ADDED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml:20:17-57
+uses-sdk
+INJECTED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml
+INJECTED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml
+INJECTED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml
+INJECTED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml
+		ADDED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml
+		ADDED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/wangzhengjie/Documents/Projects/GEOPPT/app/geoppt-mobile/native_modules/react-native-aliyun-push/android/src/main/AndroidManifest.xml
